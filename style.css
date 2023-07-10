@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #eee;
+    position: relative;
+}
+.header {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: #fff;
+}
+.header h1 {
+    font-size: 88px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header i {
+    font-size: 62px;
+    margin: 50px;
+}
+.nav {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    top: 120px;
+}
+.nav li {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+    border-bottom: 5px solid #000;
+    cursor: pointer;
+}
+.nav i {
+    font-size: 22px;
+    margin-left: 80px;
+}
+.bike1 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    height: 300px;
+}
+.hr1 {
+    position: absolute;
+    top: 190px;
+    width: 95%;
+    margin: 2.5%;
+}
+.paragraph1 {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    font-size: 28px;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr2 {
+    position: absolute;
+    top: 550px;
+    width: 95%;
+    margin: 2.5%;
+}
+.bike2 {
+    position: absolute;
+    top: 610px;
+    right: 150px;
+    height: 300px;
+}
+.paragraph2 {
+    width: 700px;
+    position: absolute;
+    top: 510px;
+    font-size: 28px;
+    left: 50px;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav li:hover {
+    border-bottom: 5px solid green;
+}
+.hr3 {
+    position: absolute;
+    top: 910px;
+    width: 95%;
+    margin: 2.5%;
+}
+.bike3{
+    position: absolute;
+    top: 970px;
+    left: 50px;
+    height: 300px;
+}
+.h4 {
+    position: absolute;
+    top: 1270px;
+    width: 95%;
+    margin: 2.5%;
+}
+.icons {
+    position: absolute;
+    top: 1350px;
+}
+.icons i {
+    font-size: 32px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+}
+.paragraph3 {
+    position: absolute;
+    top: 870px;
+    left: 450px;
+    font-size: 28px;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
